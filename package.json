@@ -1,0 +1,18 @@
+{
+    "name": "challenge_backend",
+    "version": "1.0.0",
+    "description": "challenge d'evaluation gemography",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --colors --noStackTrace --passWithNoTests --runInBand  --detectOpenHandles",
+        "start": "nodemon src/main/index.js"
+    },
+    "author": "Lucas Felix Calombe",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "jest": "^27.1.0",
+        "nodemon": "^2.0.12"
+    }
+}
