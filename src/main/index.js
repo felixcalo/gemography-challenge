@@ -6,5 +6,5 @@ const port = 3000;
 
 app.get("/api", serverRouterAdapter.adapter(RepositoryRouter));
 app.listen(port, () =>
-    console.log(`Server running at http://localhost:${port}`)
+    console.log(`Server running at http://localhost:${port}/api`)
 );
